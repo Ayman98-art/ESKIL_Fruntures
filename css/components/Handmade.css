@@ -1,0 +1,101 @@
+#handMade{
+    padding: 70px 35px 0px 35px !important;
+}
+.handMade__img{
+    padding: 0px 25px;
+}
+.handMade__img img{
+    width: 100%;
+    filter: blur(1.1px);
+    margin-bottom: 45px;
+}
+.handMade__img:hover img{
+    filter: blur(0px);
+    cursor: pointer;
+}
+.handMade__img span{
+    font-size: 18px;
+    color: var(--mainColor);
+    font-family: "Jost", Sans-serif;
+}
+.handMade__img h3{
+    margin: 15px 0px;
+    font-size: 32px;
+    font-weight: 500;
+    font-family: "Jost", Sans-serif;
+}
+.handMade__img p{
+    font-size: 18px;
+    color: var(--fiveColor);
+    line-height: 1.5;
+    font-family: "Jost", Sans-serif;
+}
+.btn__read{
+    margin-top: 15px;
+    padding: 12px 25px;
+    background-color: var(--mainColor);
+    color: var(--secoundColor);
+    border: 1px solid var(--sixColor);
+    font-size: 18px;
+    font-weight: 400;
+    font-family: "Jost", Sans-serif;
+    transition: all .3s;
+}
+.btn__read:hover{
+    border: 1px solid var(--mainColor);
+    color: var(--mainColor);
+    background-color: transparent;
+}
+.handMade__img--end{
+    text-align: end;
+}
+.squar{
+    width: 70%;
+    height: 190px;
+    border: 1px solid var(--sixColor);
+    border-radius: 5px;
+    text-align: left;
+    padding: 18px;
+    margin-top: 42px;
+    margin-left: 25px;
+}
+.squar:hover{
+    border: 1px solid var(--mainColor);
+    box-shadow: 0px 0px 12px -8px var(--mainColor);
+    cursor: pointer;
+}
+.squar h3{
+    font-size: 32px;
+    font-weight: 500;
+    font-family: "Jost", Sans-serif;
+}
+.squar p{
+    font-size: 18px;
+    color: var(--fiveColor);
+    font-family: "Jost", Sans-serif;
+}
+.squar p ,.squar i{
+    padding: 10px 5px;
+}
+/*************************************/
+.video__blog{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 60px;
+    margin: 60px auto 0px auto;
+}
+.video__blog video{
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+.squar--end{
+    margin-top: 42px;
+    margin-left: 55px;
+}
+.handMade__img--view{
+    margin-top: 32px;
+    margin-right: 35px;
+    text-align: end;
+}

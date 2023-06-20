@@ -1,0 +1,13 @@
+.inner-cusor{
+    position: absolute;
+    bottom: 0px;
+    width: 12px;
+    height: 12px;
+    transform: translate(-50% , -50%);
+    background-color: #fff;
+    mix-blend-mode: difference;
+    border-radius: 50%;
+    border: 1px solid #fff;
+    pointer-events: none;
+    z-index: 1000999000;
+}

@@ -1,0 +1,56 @@
+#Subscribe .oneP{
+    font-family: 'Jost', sans-serif;
+    font-weight: 400;
+    color: var(--fiveColor);
+    font-size: 30px;
+    line-height: 1.2;
+    margin: 70px 0px 20px 0px;
+    text-align: center;
+}
+.email input[type="email"]{
+    width: 400px;
+    height: 50px;
+    padding: 0px 15px;
+    border: 1px solid var(--fiveColor);
+    border-radius: 15px 0px 0px 15px;
+    cursor: pointer;
+    transition: all .4s;
+}
+.email input[type="email"]:hover{
+    border-radius: 0px;
+}
+.email input[type="email"]::placeholder{
+    color: var(--secoundColor);
+}
+.btn__sub{
+    background-color: transparent;
+    border-radius: 0px 15px 15px 0px;
+    padding: 12px 30px;
+    color: var(--fiveColor);
+    border: 1px solid var(--fiveColor);
+    background-color: transparent;
+    font-family: Jost,sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    transition: all .4s;
+}
+.btn__sub:hover{
+    border-radius: 0px;
+}
+#Subscribe .twoP{
+    font-family: 'Jost', sans-serif;
+    font-weight: 400;
+    color: var(--fiveColor);
+    font-size: 18px;
+    line-height: 1.2;
+    margin: 30px 0px 0px 0px;
+    text-align: center;
+}
+#Subscribe .twoP span a{
+    margin-left: 5px;
+    color: var(--sixColor);
+    transition: all .3s;
+}
+#Subscribe .twoP span a:hover{
+    color: var(--mainColor);
+}

@@ -1,0 +1,18 @@
+.btn-number{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn-number .num{
+    margin-top: 45px;
+}
+.btn-number .num a{
+    margin-right: 10px;
+    color: var(--mainColor);
+    font-size: 18px;
+    font-weight: 500;
+    transition: all .3s;
+}
+.btn-number .num a:hover{
+    border-bottom: 1px solid var(--mainColor);
+}

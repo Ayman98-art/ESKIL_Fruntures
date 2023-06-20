@@ -1,0 +1,84 @@
+.account{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 0px 120px 0px;
+}
+.account h3{
+    font-family: 'Jost' ,sans-serif;
+    font-weight: 400;
+    color: var(--mainColor);
+    font-size: 38px;
+    line-height: 1.2;
+    margin: 60px 0px;
+}
+.name,
+.pass{
+    padding-bottom: 30px;
+}
+.name label,
+.pass label{
+    font-size: 20px;
+    color: var(--mainColor);
+    font-family: 'Jost' ,sans-serif;
+    font-weight: 400;
+}
+.name input[type="text"],
+.pass input[type="password"]{
+    width: 120%;
+    padding: 20px 45px;
+    border: 1px solid var(--mainColor);
+    border-radius: 2px;
+}
+.name .text__input{
+    width: 100% !important;
+}
+.inside{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 30px;
+}
+.check{
+    display: flex;
+    justify-content: flex-start;
+    align-items: stretch;
+}
+.check input[type="checkbox"]{
+    width: 25px;
+    height: 25px;
+}
+.check label{
+    font-size: 20px;
+    color: var(--mainColor);
+    font-family: 'Jost' ,sans-serif;
+    font-weight: 400;
+}
+.inside .lastPass{
+    position: relative;
+    right: -60px;
+}
+.inside .lastPass a{
+    font-size: 13px;
+    text-decoration: underline !important;
+    color: var(--mainColor);
+    font-family: 'Jost' ,sans-serif;
+    font-weight: 500;
+}
+.btn__log{
+    padding: 12px 32px;
+    color: var(--mainColor);
+    background-color: transparent;
+    border: 1px solid var(--mainColor);
+    border-radius: 8px;
+    font-size: 22px;
+    font-family: 'Jost' ,sans-serif;
+    font-weight: 400;
+    transition: all .4s;
+}
+.btn__log:hover{
+    background-color: var(--mainColor);
+    border: 1px solid var(--mainColor);
+    color: var(--secoundColor);
+    border-radius: 0px;
+}

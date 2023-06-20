@@ -1,0 +1,73 @@
+.table-store{
+    position: relative;
+}
+.pin-img .pin__one,
+.pin-img .pin__two,
+.pin-img .pin__three{
+    width: 1% !important;
+    position: absolute;
+    cursor: pointer;
+}
+.pin-img .pin__one{
+    top: 52%;
+    left: 40%;
+}
+.pin-img .pin__two{
+    top: 48%;
+    left: 52%;
+}
+.pin-img .pin__three{
+    top: 65%;
+    left: 75%;
+}
+.pin__bg1{
+    width: 10%;
+    height: 31%;
+    text-align: center;
+    background-color: var(--thirdColor);
+    border: 1px solid var(--mainColor);
+    position: absolute;
+    top: 25%;
+    left: 29%;
+    visibility: hidden;
+    opacity: 0;
+    transition: all .5s ease-in-out;
+}
+.pin-img:hover .pin__bg1{
+    visibility: visible;
+    opacity: 1;
+}
+.pin__bg2{
+    width: 10%;
+    height: 31%;
+    text-align: center;
+    background-color: var(--thirdColor);
+    border: 1px solid var(--mainColor);
+    position: absolute;
+    top: 21%;
+    left: 55%;
+    visibility: hidden;
+    opacity: 0;
+    transition: all .5s ease-in-out;
+}
+.pin-img:hover .pin__bg2{
+    visibility: visible;
+    opacity: 1;
+}
+.pin__bg3{
+    width: 10%;
+    height: 32%;
+    text-align: center;
+    background-color: var(--thirdColor);
+    border: 1px solid var(--mainColor);
+    position: absolute;
+    top: 38%;
+    left: 78%;
+    visibility: hidden;
+    opacity: 0;
+    transition: all .5s ease-in-out;
+}
+.pin-img:hover .pin__bg3{
+    visibility: visible;
+    opacity: 1;
+}

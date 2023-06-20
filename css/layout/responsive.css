@@ -1,0 +1,117 @@
+@media(max-width: 477px){
+    .dropImg img{
+        display: none;
+    }
+    .submenu--shop{
+        width: 100%;
+        overflow: hidden;
+    }
+    .nav__bar {
+    margin-left: 0px;
+    }
+    .nav__search:hover .nav__search--bg{
+        visibility: hidden;
+        opacity: 0;
+    }
+    .nav__bar .nav__cart {
+        margin-top: 10px;
+    }
+    .item h1 {
+    font-size: 25px;
+    }
+    .email input[type="email"] {
+        width: 100%;
+    }
+    .squar {
+        height: auto;
+    }
+    textarea {
+        width: 100%;
+    }
+    .user {
+        flex-direction: column;
+    }
+    .user .name-user {
+        margin-right: 0px;
+    }
+    #Contact .name-user input[type="text"],
+    #Contact .email-user input[type="email"],
+    #Contact .website-user input[type="text"]{
+        width: 100%;
+    }
+    #Contact input[type="checkbox"] {
+        width: 20%;
+    }
+    .product__img {
+        width: 100%;
+        margin-right: 0px;
+    }
+    .detels {
+        width: 100%;
+    }
+    .all__product__detels {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    }
+    .detels input[type="number"] {
+    padding: 8px 12px;
+    width: 50%;
+    height: auto;
+    margin-bottom: 15px;
+    }
+    .detels button {
+    margin-left: 0px;
+    }
+    .submenu{
+    left: 50px;
+    }
+    .navbar-toggler {
+        background-color: #fff;
+        }
+}
+
+@media (min-width: 768px) and (max-width: 800px){
+    .nav__bar {
+        margin-left: 0px;
+    }
+    .nav__search:hover .nav__search--bg{
+        visibility: hidden;
+        opacity: 0;
+    }
+    .squar {
+    height: auto;
+    }
+    .submenu{
+    left: 50px;
+    }
+    .navbar-toggler {
+    background-color: #fff;
+    }
+}
+
+@media (min-width: 820px ) and (max-width: 1010px ){
+    .nav__bar {
+        margin-left: 0px;
+    }
+    .nav__search:hover .nav__search--bg{
+        visibility: hidden;
+        opacity: 0;
+    }
+    .squar {
+    height: auto;
+    }
+    .submenu{
+        left: 50px;
+        }
+        .navbar-toggler {
+            background-color: #fff;
+            }
+}
+
+@media (min-width: 1012px) and (max-width: 10000px) {
+    .nav__bar {
+        margin-left: 50px;
+    }
+}

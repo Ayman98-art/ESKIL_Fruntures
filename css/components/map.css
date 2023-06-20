@@ -1,0 +1,8 @@
+#map{
+    padding: 60px 35px 0px 35px;
+}
+#map h2{
+    font-size: 32px;
+    color: var(--sixColor);
+    font-weight: 500;
+}

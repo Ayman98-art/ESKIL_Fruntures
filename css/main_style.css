@@ -1,0 +1,74 @@
+/* foledr base */
+
+/* file base.css */
+@import url(../css/base/base.css);
+
+/* file base.css */
+@import url(../css/base/color.css);
+
+/* file font.css */
+@import url(../css/base/font.css);
+
+/* foledr compentes */
+
+/* file section one */
+@import url(../css/components/slider.css);
+
+/* file section two */
+@import url(../css/components/FEATURED.css);
+
+/* file section three */
+@import url(../css/components/texting.css);
+
+/* file section four */
+@import url(../css/components/description.css);
+
+/* file section five */
+@import url(../css/components/CATEGORIES.css);
+
+/* file section six */
+@import url(../css/components/Subscribe.css);
+
+/* file section seven */
+@import url(../css/components/topContact.css);
+
+/* file section eight */
+@import url(../css/components/map.css);
+
+/* file section ten */
+@import url(../css/components/Contact.css);
+
+/* file section 11 */
+@import url(../css/components/Handmade.css);
+
+/* file section 12 */
+@import url(../css/components/error.css);
+
+/* file section 13 */
+@import url(../css/components/number.css);
+
+/* file section 13 */
+@import url(../css/components/bg-store.css);
+
+/* file section 14 */
+@import url(../css/components/my-account.css);
+
+/* file section 15 */
+@import url(../css/components/loading.css);
+
+/* file section 16 */
+@import url(../css/components/cursor.css);
+
+/* file section 17 */
+@import url(../css/components/details.css);
+
+/* foledr layout */
+
+/* file header*/
+@import url(../css/layout/header.css);
+
+/* file footer*/
+@import url(../css/layout/footer.css);
+
+/* file responsive*/
+@import url(../css/layout/responsive.css);

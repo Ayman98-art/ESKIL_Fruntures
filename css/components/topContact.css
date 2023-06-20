@@ -1,0 +1,52 @@
+.topContact{
+    padding: 60px 35px 0px 35px;
+}
+.TopContact__text{
+    text-align: center;
+}
+.TopContact__text p{
+    margin-bottom: 15px !important;
+    font-size: 16px;
+    color: var(--sixColor);
+    font-weight: 400;
+}
+.TopContact__text h2{
+    font-size: 42px;
+    font-weight: 400;
+    color: var(--mainColor);
+    line-height: 1.4;
+    margin-bottom: 15px;
+}
+.TopContact__img img{
+    margin-top: 30px;
+    width: 95%;
+}
+.TopContact__img .pOne{
+    margin-top: 45px;
+    font-size: 16px;
+    color: var(--sixColor);
+    font-weight: 400;
+    line-height: 2;
+    word-spacing: 3px;
+    padding: 0px 70px;
+    text-align: left;
+}
+.TopContact__img .pTwo{
+    margin-top: 45px;
+    font-size: 18px;
+    color: var(--mainColor);
+    font-weight: 500;
+    text-align: left;
+    line-height: 1.5;
+    word-spacing: 3px;
+    padding: 0px 85px;
+    position: relative;
+}
+.TopContact__img .pTwo::before{
+    content: "";
+    position: absolute;
+    left: 70px;
+    background: var(--mainColor);
+    width: 1px;
+    height: 60px;
+}

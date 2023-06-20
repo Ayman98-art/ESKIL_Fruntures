@@ -1,0 +1,121 @@
+#FEATURED .col-lg-4{
+    margin: 10px 0px;
+}
+.FEATURED__text h2{
+    font-family: 'Jost', sans-serif;
+    font-weight: 400;
+    margin-top: 15px;
+}
+.card__style{
+    position: relative;
+}
+.card__style::after{
+    content: "NEW";
+    text-align: center;
+    line-height: 18px;
+    position: absolute;
+    top: 5px;
+    /* color: var(--secoundColor); */
+    left: 5px;
+    background-color: transparent;
+    width: 50px;
+    height: 20px;
+    border: 1px solid var(--fiveColor);
+    border-radius: 10px;
+}
+.card__img{
+    position: relative;
+}
+.card__img .card__img--light{
+    position: absolute;
+    top: 0;
+    left: 0;
+    visibility: hidden;
+    opacity: 0;
+    transition: all .2s;
+}
+.card__img--light img{
+    width: 100%;
+    height: auto;
+}
+.card__img:hover .card__img--light{
+    visibility: visible;
+    opacity: 1;
+}
+.icones{
+    position: absolute;
+    z-index: 98;
+    right: 0;
+    left: 10px;
+    bottom: 10px;
+    width: 75px;
+    text-align: center;
+    visibility: hidden;
+    opacity: 0;
+    transition: all .4s;
+}
+.card__img:hover .icones{
+    visibility: visible;
+    opacity: .8;
+}
+.icones a{
+    color: var(--fiveColor);
+}
+.icones a:hover{
+    color: var;
+}
+.icones a i{
+    margin-right: 10px;
+}
+.card__text{
+    display: flex;
+}
+.card__text h5{
+    font-weight: 400;
+    color: var(--fiveColor);
+    font-size: 16px;
+}
+.card__text span{
+    font-weight: 500;
+    color: var(--mainColor);
+}
+.card__text--font a{
+    font-weight: 500;
+    color: var(--mainColor);
+    margin-left: -15px;
+}
+.card__text--font i{
+    visibility: hidden;
+    opacity: 0;
+    transition: all .4s;
+}
+.card__text--font:hover i{
+    visibility: visible;
+    opacity: .8;
+    margin-right: 18px;
+}
+/* ***************** */
+.btn__plus,
+.btn__minus{
+    padding: 2px 8px;
+    background-color: var(--mainColor);
+    color: var(--secoundColor);
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all .4s;
+}
+.btn__plus:hover,
+.btn__minus:hover{
+    background-color: transparent;
+    color: var(--mainColor);
+}
+.count{
+    font-size: 20px;
+    color: var(--mainColor);
+    font-weight: 600;
+    margin: 0px 10px;
+}
+.card {
+    background-color: transparent;
+}

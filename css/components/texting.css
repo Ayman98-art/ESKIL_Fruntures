@@ -1,0 +1,29 @@
+#texting .firstP{
+    font-family: "Jost", Sans-serif;
+    font-weight: 400;
+    color: var(--mainColor);
+    font-size: 36px;
+}
+#texting .secoundP{
+    font-family: "Jost", Sans-serif;
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 28px;
+}
+#texting .btn__text{
+    padding: 12px 32px;
+    color: var(--fiveColor);
+    border: 1px solid var(--fiveColor);
+    background-color: transparent;
+    border-radius: 20px;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-family: "Jost", Sans-serif;
+    font-weight: 400;
+    transition: all .4s;
+}
+#texting .btn__text:hover{
+    color: var(--mainColor);
+    border: 1px solid var(--mainColor);
+    border-radius: 0px;
+}

@@ -1,0 +1,15 @@
+:root{
+    --mainColor:#000;
+    --secoundColor:#fff;
+    --mainColor-bg:#fff;
+    --secoundColor-bg-text:#000;
+    --thirdColor:#ccc;
+    --hoverColor: rgba(0, 0, 0, 0.500);
+    --hoverColor-two: rgba(204, 204, 204, 0.500);
+    --hoverColor-three: rgba(0, 0, 0, 0.863);
+    --hoverColor-four: rgba(0, 0, 0, 0.150);
+    --fiveColor:#54595F;
+    --sixColor:#7a7a7a;
+    --sixColor--modifir:#737373;
+    --S7venColor:#1a1a1ad8;
+}

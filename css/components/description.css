@@ -1,0 +1,18 @@
+#desc img {
+    max-width: 100%;
+}
+#desc p{
+    font-family: "Jost", Sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--fiveColor);
+    line-height: 1.6;
+    margin-top: 20px;
+}
+#desc h3{
+    font-family: "Jost", Sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    color: var(--fiveColor);
+    margin-top: 15px;
+}

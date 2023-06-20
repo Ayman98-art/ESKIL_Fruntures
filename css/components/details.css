@@ -1,0 +1,84 @@
+.all__product__detels{
+    display: flex;
+}
+.product__img{
+    width: 40%;
+    margin-right: 30px;
+}
+.product__img img{
+    width: 100%;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.small__shirts{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.small__shirts--under{
+    margin: 3px;
+}
+.small__shirts--under img{
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+
+}
+.detels{
+    width: 55%;
+    padding-top: 30px;
+}
+.detels  h6{
+    font-size: 14px;
+    color: var(--S7venColor);
+}
+.detels  h3{
+    font-size: 22px;
+    color: var(--S7venColor);
+    margin: 5px 0px;
+}
+.detels  h2{
+    font-size: 45px;
+    color: var(--S7venColor);
+}
+.detels .select__product{
+    display: block;
+    padding: 5px 10px;
+    margin: 15px 0px;
+}
+.detels .select__product:focus{
+    outline: none;
+}
+.detels input[type="number"]{
+    padding: 8px 12px;
+    width: 13.5%;
+    height: 30px;
+}
+.detels input[type="number"]:focus{
+    outline: none;
+}
+.detels button{
+    background-color: var(--mainColor);
+    color: var(secoundColor);
+    padding: 5px 12px;
+    margin-left: 15px;
+    cursor: pointer;
+    border: 1px solid var(--mainColor);
+    transition: all .3s;
+}
+.detels button:hover{
+    background-color: transparent;
+    color: var(--mainColor);
+    border: 1px solid var(--mainColor);
+}
+.detels  h3{
+    color: var(--S7venColor);
+    font-size: 32px;
+}
+.detels  span{
+    color: var(--S7venColor);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;
+    word-spacing: 4px;
+}

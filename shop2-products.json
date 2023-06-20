@@ -1,0 +1,41 @@
+{
+    "shopTwoProduct":
+    [
+        {
+            "num":"1",
+            "img": "assets/product/1.WebP",
+            "tittle": "Poliframe tuffed accnet chair 29.1″W, jet black",
+            "price": "$152.99"
+        },
+        {
+            "num":"2",
+            "img": "assets/product/2.WebP",
+            "tittle": "Poliframe tuffed accnet chair 29.1″W, jet black",
+            "price": "$558.99"
+        },
+        {
+            "num":"3",
+            "img": "assets/product/3.WebP",
+            "tittle": "Poliframe tuffed accnet chair 29.1″W, jet black",
+            "price": "$158.99"
+        },
+        {
+            "num":"4",
+            "img": "assets/product/4.WebP",
+            "tittle": "Poliframe tuffed accnet chair 29.1″W, jet black",
+            "price": "$458.99"
+        },
+        {
+            "num":"5",
+            "img": "assets/product/5.WebP",
+            "tittle": "Poliframe tuffed accnet chair 29.1″W, jet black",
+            "price": "$558.99"
+        },
+        {
+            "num":"6",
+            "img": "assets/product/6.WebP",
+            "tittle": "Poliframe tuffed accnet chair 29.1″W, jet black",
+            "price": "$658.99"
+        }
+    ]
+}
