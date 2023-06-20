@@ -51,6 +51,10 @@ body{
 .left-right__mar{
     padding: 0px 35px !important;
 }
+.left-right__mar--change{
+    padding-left:35px !important;
+    padding-right:35px !important;
+}
 .natgative__mar1{
     margin-top: -10px;
 }
