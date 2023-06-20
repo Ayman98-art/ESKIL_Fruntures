@@ -1,5 +1,10 @@
 .table-store{
+    width: 100%;
+    height: auto;
     position: relative;
+}
+.table-store img{
+    width: 100%;
 }
 .pin-img .pin__one,
 .pin-img .pin__two,

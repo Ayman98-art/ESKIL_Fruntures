@@ -1,7 +1,5 @@
 .btn-number{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    text-align: center;
 }
 .btn-number .num{
     margin-top: 45px;
